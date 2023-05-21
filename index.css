@@ -9,13 +9,21 @@ body {
 .header {
     width: auto;
     height: 18.3em;
-    background-image: url(img/dust_scratches.webp);
+    background-image: url(img/dust_scratches.png);
     background-blend-mode: overlay;
-    background-color: #667588;
+    background-color: #488d4e;
 }
 
 .identity {
     margin-top: 5em;
+}
+
+.sectionPadding {
+    margin-top: 5em;
+}
+
+.sectionBottom {
+    margin-bottom: 5em;
 }
 
 .img-id {
@@ -33,6 +41,13 @@ body {
 h2 {
     margin-bottom: -.1em;
 }
+
+.divider {
+    height: .05em;
+    width: 30em;
+    background-color: #555;
+    margin-bottom: 1em;
+  }
 
 .btn-id-1 {
     margin: .5em 0 0 0;
