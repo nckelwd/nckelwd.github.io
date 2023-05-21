@@ -6,98 +6,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Elwood</title>
+    <title>Nick Elwood</title>
     
     <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
     
     <!--Alternate CSS-->
-    <link rel="stylesheet" href="main.css">
-    
+    <link rel="stylesheet" href="index.css">
+
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 
 </head>
 
-<body class="text-center">
-    <div class="about-section">
-        <div class="container">
-            <div class="img-id img-circle"></div>
-            <div id="title-space"></div>
-            <div class="title-id">
-                <h2>Nick Elwood</h2>
-                <h4>Web Developer</h4>
-                <p>Jacksonville Beach, Fl</p>
-            </div>
-            <a href="http://linkedin.com/in/nckelwd"><button class="btn btn-id-1"></button></a>
-        </div>
-    </div>
-    
-    <div class="sections section-a">
-        <div class="container">
-            <div class="img img-web-page" id="webpage-1" alt="Home Page"></div>
-            <div class="img img-web-page" id="webpage-2" alt="Portfolio Page"></div>
-            <div class="img img-web-page" id="webpage-3" alt="Blog Page"></div>
-        </div>
-        <p id="text-under-img">The first iteration of my personal website. Creating this helped me learn alot about BootStrap, jQuery and, overall, making sure my code is written cleanly.</p>
-        <br>
-        <p>Tools used:</p>
-        <div class="row tools">
-            <div class="col-xs-3">
-                <div class="logos-group tool" id="html-img" alt="css logo"></div>
-            </div>
-            <div class="col-xs-3">
-                <div class="logos-group tool" id="boot-img" alt="html logo"></div>
-            </div>
-            <div class="col-xs-3">
-                <div class="logos-group tool" id="css-img" alt="bootstrap logo"></div>
-            </div>
-            <div class="col-xs-3">
-                <div class="logos-group tool" id="jqu-img" alt="jquery logo"></div>
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="sections section-b">
-        <div class="container">
-            <div class="img img-book-cover"></div>
-            <p id="text-under-img">Ryan Troutman, a local author and long time friend asked me to help him create the cover for his recent book, <em>Second Chance</em>.</p>
-            <a href="http://www.ryantroutman.com"><button class="btn btn-primary btn-sm">Check out his book.</button></a>
-            <br>
-            <br>
-            <br>
-            <p>Tools used:</p>
-    
-            <div class="row tools">
-                <div class="col-xs-6">
-                    <div class="logos-group tool" id="logops" alt="adobe photoshop"></div>
+<body>
+    <!--JS-->
+    <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <div class="header">
+        <div class="container text-center ">
+            <div class="row ">
+                <div class="col">
+                    <img src="img/profileNick.jpg" class="img-id rounded-circle"></img>
                 </div>
-                <div class="col-xs-6">
-                    <div class="logos-group tool" id="logocannon" alt="aperture"></div>
+                <div class="col identity">
+                    <h2>Nick Elwood</h2>
+                    <p>System Administrator</p>
+                    <a href="http://linkedin.com/in/nckelwd"><button class="btn btn-id-1"></button></a>
+                </div>
+                <div class="col">
                 </div>
             </div>
+
         </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="aboutMe-tab" data-bs-toggle="tab" data-bs-target="#aboutMe-tab-pane" type="button" role="tab" aria-controls="aboutMe-tab-pane" aria-selected="true">About Me</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="resume-tab" data-bs-toggle="tab" data-bs-target="#resume-tab-pane" type="button" role="tab" aria-controls="resume-tab-pane" aria-selected="false">Resume</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="aboutMe-tab-pane" role="tabpanel" aria-labelledby="aboutMe-tab" tabindex="0">
+                <div class="container">
+                    <div class="col text-start">
+                    <br>
+                    <p> My name is Nick Elwood, and I live and work in Jacksonville, Florida.</p>
+                    <p> A little about me; Originally from Puerto Rico, I was raised in Jacksonville, Florida, and have lived here for basically all of my life.</p>
+                    <p> While I spent my 20's going to college at University of North Florida (where I earned my BA in Psychology), working 3 jobs just to get by, I found my passion and opportunities in Technology.</p>
+                    <p> I got my start working as a HelpDesk technician, where I quickly made my way to a level 2 role, which lead to my final hop to System Administrator.</p>
+                    <p> I now work as a Systems Administrator - Cloud Systems admin at a small company. While I know I haven't yet hit my peak, I am comfortable where I'm at, and I am working on my personal goals, while also working on my professional accomplishments.</p>
+                    <br>
+                    <br>
+                    <p> I have found many hobbies and passions; Currently, I am working towards completing an IronMan race.</p>
+                    <p> If you're not familiar with IronMan, the full race includes a 2.4 mile, open-water swim, followed by a 112 mile bike course, and ending with a full 26.2 mile marathon run. </p>
+                    <p> This is going to take <b>a lot</b> of training. I'm ok with that. This year, I've completed 2 half marathons, and expect to complete 2 full marathons (and another half marathon) by March 2024. I am also particpating in RAGBRAI, which is a 500 mile bike ride across Iowa.</p>
+                    <p> Ideally, I'll complete the half IronMan in 2025, and the full in 2026, but we'll see how all the prep goes first.</p>
+                    <br>
+                    <br>
+                    <p> Beyond the constant barrage of destroying my body (in a good way), I also enjoy video games, music, learning how to code, and hanging out with my wife and our (way too many) pets.</p>
+                    <br>
+                    <br>
+                    <p> That's enough about me. If you're interested in establishing a professional relationship, you think I'd be cool to work with, or just want to roast me on the internet because my basic site isn't great, hit me up on LinkedIn.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="resume-tab-pane" role="tabpanel" aria-labelledby="resume-tab" tabindex="0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 text-start">
+                            <h3>APR Energy</h3>
+                        </div>
+                        <div class="col-8 text-start">
+                            <p> System Administrator - Cloud Systems</p>
+                            <p>job duties</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 text-start">
+                            <p>The Suddath Companies</p>
+                        </div>
+                        <div class="col-8 text-start">
+                            <p> Work Description</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div class="container">
+                    <div class="col text-start">
+
+                    </div>
+                </div>
+            </div>
+          </div>
+          
     </div>
+
+
+      
     
-    <div class="sections section-a">
-        <div class="container">
-            <h4>Current Project</h4>
-            <div class="img img-zombie"></div>
-            <p id="text-under-img"> This is part of a game im currently working on, an 8-bit zombie survival side-scroller, where you play as the zombie and survive as long as possible. I am self-educating in C++ in order to create it.</p>
-            <br>
-            <p>Tools used:</p>
-            <a href="http://www.piskelapp.com"><div class="logos-group tool" id="logopiskel" alt="piskel"></div></a>
-        </div>
-    </div>
-    
-    <div class="sections section-b section-contact">
-        <br>
-        <br>
-        <p>Want to get in touch?</p>
-        <a href="http://linkedin.com/in/nckelwd"><button class="btn btn-id-1"></button></a>
-    </div>
 
 </body>
 </html>
